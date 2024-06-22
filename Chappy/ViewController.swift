@@ -18,9 +18,9 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         UIView.animate(withDuration: 1.0,delay: 0,options: [.curveEaseIn,.autoreverse,.repeat], animations: {
-            self.characterImageView.center.y += 10.0
+            self.characterImageView.center.y += 11.0
         }){ _ in
-            self.characterImageView.center.y -= 10.0
+            self.characterImageView.center.y -= 11.0
         }
     }
 
