@@ -15,7 +15,7 @@
 		49F6F38B2C22BA9900D0EEF1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 49F6F38A2C22BA9900D0EEF1 /* Base */; };
 		49F6F3972C22C38F00D0EEF1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F6F3962C22C38F00D0EEF1 /* CameraViewController.swift */; };
 		49F6F3992C269ADA00D0EEF1 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F6F3982C269ADA00D0EEF1 /* QuizViewController.swift */; };
-		49F6F39C2C26A98F00D0EEF1 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 49F6F39B2C26A98F00D0EEF1 /* OpenAISwift */; };
+		49F6F39F2C26B4FD00D0EEF1 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 49F6F39E2C26B4FD00D0EEF1 /* OpenAI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49F6F39C2C26A98F00D0EEF1 /* OpenAISwift in Frameworks */,
+				49F6F39F2C26B4FD00D0EEF1 /* OpenAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			);
 			name = Chappy;
 			packageProductDependencies = (
-				49F6F39B2C26A98F00D0EEF1 /* OpenAISwift */,
+				49F6F39E2C26B4FD00D0EEF1 /* OpenAI */,
 			);
 			productName = Chappy;
 			productReference = 49F6F37B2C22BA9800D0EEF1 /* Chappy.app */;
@@ -123,7 +123,7 @@
 			);
 			mainGroup = 49F6F3722C22BA9800D0EEF1;
 			packageReferences = (
-				49F6F39A2C26A98F00D0EEF1 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+				49F6F39D2C26B4FD00D0EEF1 /* XCRemoteSwiftPackageReference "OpenAI" */,
 			);
 			productRefGroup = 49F6F37C2C22BA9800D0EEF1 /* Products */;
 			projectDirPath = "";
@@ -381,21 +381,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		49F6F39A2C26A98F00D0EEF1 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+		49F6F39D2C26B4FD00D0EEF1 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			repositoryURL = "https://github.com/MacPaw/OpenAI";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.4.1;
+				minimumVersion = 0.2.9;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		49F6F39B2C26A98F00D0EEF1 /* OpenAISwift */ = {
+		49F6F39E2C26B4FD00D0EEF1 /* OpenAI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 49F6F39A2C26A98F00D0EEF1 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
-			productName = OpenAISwift;
+			package = 49F6F39D2C26B4FD00D0EEF1 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
